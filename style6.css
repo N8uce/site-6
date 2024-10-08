@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+  }
+
+header {
+    background-color: rgb(247,249,248);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 0.55fr auto 1fr;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.logo img {
+    margin-right: 10px;
+}
+.logoimg 
+{
+    width: 50px;
+    height: 50px;
+}
+.logo p {
+    margin: 0;
+}
+.MainHead {
+    text-align: center;
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    height: 65vh; /* Увеличиваем высоту */
+}
+.MainHead span
+{
+color: white;
+font-size: 50pt;
+}
+
+.MainHead a {
+    
+    text-decoration: none;
+    align-self: end; /* Размещаем кнопку чуть ниже */
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid rgb(96,194,255); /* Видимые границы */
+    color: #000; /* Цвет текста */
+    display: flex; /* Используем Flexbox */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 25px auto; /* Центрирование с помощью auto */
+    width: 250px; /* Фиксированная ширина */
+}
+.MainHead p {
+    margin: 0;
+    color: white;
+    text-decoration: overline;
+    text-decoration-color: rgb(96,194,255);
+    text-decoration-thickness: 3px;
+}
+
+.Main
+{
+    background-color: rgb(247,249,248);
+    text-align: center;
+    padding: 20px;
+}
+.Main p:first-of-type
+{
+    font-size: 30px;
+    font-weight: 800;
+}
+.Main P:last-of-type
+{
+    font-size: 20px;
+}
+.MainText
+{
+ text-align: center;
+ margin: 0 20%;
+}
+
+.promo
+{
+ text-align: center;
+ font-size: 10pt;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding: 15px;
+}
+
+.promo nav
+{
+    display: grid;
+    justify-content: center; /* Центрирование содержимого по горизонтали */ 
+}
+.promo nav ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Четыре колонки с автоматической шириной */
+    gap: 40px; /* Расстояние между элементами */
+    padding: 0;
+    margin: 0;
+    
+}
+
+.promo nav ul li {
+    width: 200px; /* Фиксированная ширина для элементов списка */
+    word-wrap: break-word; /* Перенос текста */
+}
+
+.promo nav ul li p:first-of-type {
+    font-weight: bold; /* Жирный шрифт для первого <p> */
+}
+
+.promo nav ul li p:last-of-type {
+    font-weight: normal; /* Обычный шрифт для второго <p> */
+    font-size: 0.85em; /* Уменьшенный размер шрифта */
+    color: grey;
+}
+.IMG
+{
+    width: 80px;
+    height: 80px;
+}
+.MainLow
+{
+    text-align: center;
+    background-color: rgb(247,249,248);
+}
+.MainLow p:first-of-type
+{
+font-size: 30pt;
+margin-bottom: 0;
+}
+
+.MainLow p:last-of-type
+{
+font-size: 10pt;
+}
+
+.photo nav
+{
+    display: grid;
+    justify-content: center; /* Центрирование содержимого по горизонтали */ 
+}
+.photo nav ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки с автоматической шириной */
+    gap: 30px; /* Расстояние между элементами */
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sIMG
+{
+    width: 300px;
+    height: 300px;
+}
+
